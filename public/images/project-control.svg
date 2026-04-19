@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">SILPH Control editorial plate</title>
+  <desc id="desc">Abstract editorial visual placeholder for SILPH Control.</desc>
+  <rect width="900" height="675" fill="#10100f"/>
+  <path d="M0 112.5h900M0 225h900M0 337.5h900M0 450h900M0 562.5h900M150 0v675M300 0v675M450 0v675M600 0v675M750 0v675" stroke="#393633" stroke-width="2"/>
+  <rect x="60" y="60" width="780" height="555" fill="none" stroke="#f4f0e8" stroke-width="5"/>
+  <circle cx="205" cy="214" r="92" fill="#d83722"/>
+  <rect x="360" y="126" width="375" height="42" fill="#f4f0e8"/>
+  <rect x="360" y="210" width="310" height="42" fill="#f4f0e8"/>
+  <rect x="360" y="294" width="420" height="42" fill="#f4f0e8"/>
+  <text x="76" y="520" fill="#f4f0e8" font-family="Arial Narrow, Helvetica, Arial, sans-serif" font-size="96" font-weight="900">CONTROL</text>
+  <text x="76" y="578" fill="#f4f0e8" font-family="Consolas, monospace" font-size="24">OPERATIONS / AUTOMATION / SYSTEMS</text>
+</svg>

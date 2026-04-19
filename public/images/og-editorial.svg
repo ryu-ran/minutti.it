@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Matteo Minutti editorial cover</title>
+  <desc id="desc">Open Graph editorial cover for Matteo Minutti.</desc>
+  <rect width="1200" height="630" fill="#f4f0e8"/>
+  <path d="M0 126h1200M0 252h1200M0 378h1200M0 504h1200M200 0v630M400 0v630M600 0v630M800 0v630M1000 0v630" stroke="#d4cec3" stroke-width="2"/>
+  <rect x="60" y="60" width="1080" height="510" fill="none" stroke="#10100f" stroke-width="6"/>
+  <rect x="60" y="60" width="170" height="510" fill="#d83722"/>
+  <text x="270" y="255" fill="#10100f" font-family="Arial Narrow, Helvetica, Arial, sans-serif" font-size="136" font-weight="900">MATTEO</text>
+  <text x="270" y="390" fill="#10100f" font-family="Arial Narrow, Helvetica, Arial, sans-serif" font-size="136" font-weight="900">MINUTTI</text>
+  <text x="270" y="475" fill="#10100f" font-family="Consolas, monospace" font-size="28">SOFTWARE / PRODUCT / SYSTEMS</text>
+</svg>

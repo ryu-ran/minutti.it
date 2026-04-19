@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">SILPH Technologies editorial plate</title>
+  <desc id="desc">Abstract editorial visual placeholder for SILPH Technologies.</desc>
+  <rect width="900" height="675" fill="#f4f0e8"/>
+  <path d="M0 135h900M0 270h900M0 405h900M0 540h900M150 0v675M300 0v675M450 0v675M600 0v675M750 0v675" stroke="#d4cec3" stroke-width="2"/>
+  <rect x="54" y="54" width="792" height="567" fill="none" stroke="#10100f" stroke-width="5"/>
+  <rect x="90" y="94" width="220" height="220" fill="#10100f"/>
+  <rect x="330" y="94" width="480" height="86" fill="#d83722"/>
+  <rect x="330" y="210" width="360" height="32" fill="#10100f"/>
+  <rect x="330" y="270" width="430" height="32" fill="#10100f"/>
+  <text x="90" y="500" fill="#10100f" font-family="Arial Narrow, Helvetica, Arial, sans-serif" font-size="86" font-weight="900">SILPH</text>
+  <text x="90" y="574" fill="#10100f" font-family="Arial Narrow, Helvetica, Arial, sans-serif" font-size="86" font-weight="900">TECHNOLOGIES</text>
+</svg>

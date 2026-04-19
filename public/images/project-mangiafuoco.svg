@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Mangiafuoco editorial plate</title>
+  <desc id="desc">Abstract editorial visual placeholder for Mangiafuoco.</desc>
+  <rect width="900" height="675" fill="#10100f"/>
+  <path d="M0 75h900M0 150h900M0 225h900M0 300h900M0 375h900M0 450h900M0 525h900M0 600h900M75 0v675M150 0v675M225 0v675M300 0v675M375 0v675M450 0v675M525 0v675M600 0v675M675 0v675M750 0v675M825 0v675" stroke="#312c28" stroke-width="2"/>
+  <rect x="52" y="52" width="796" height="571" fill="none" stroke="#f4f0e8" stroke-width="5"/>
+  <path d="M120 487c68-138 7-167 95-300 8 82 82 103 89 195 39-53 34-112 18-167 86 69 145 146 145 252 0 96-78 151-174 151-92 0-173-49-173-131z" fill="#d83722"/>
+  <path d="M189 506c28-61 3-95 45-158 4 43 42 62 47 109 24-27 25-61 17-92 48 42 77 82 77 140 0 54-43 86-96 86-51 0-90-29-90-85z" fill="#f4f0e8"/>
+  <path d="M510 138h210M510 212h292M510 286h166M510 360h252" stroke="#f4f0e8" stroke-width="32"/>
+  <path d="M508 456h284" stroke="#d83722" stroke-width="22"/>
+  <path d="M508 515h202" stroke="#d83722" stroke-width="22"/>
+  <circle cx="555" cy="455" r="14" fill="#10100f" stroke="#f4f0e8" stroke-width="6"/>
+  <circle cx="660" cy="455" r="14" fill="#10100f" stroke="#f4f0e8" stroke-width="6"/>
+  <circle cx="765" cy="455" r="14" fill="#10100f" stroke="#f4f0e8" stroke-width="6"/>
+  <path d="M555 455l105 60 105-60" fill="none" stroke="#f4f0e8" stroke-width="7"/>
+  <text x="68" y="108" fill="#f4f0e8" font-family="Consolas, monospace" font-size="22">FDS + EXOD.IA / EVACUATION MODEL</text>
+  <text x="68" y="583" fill="#f4f0e8" font-family="Arial Narrow, Helvetica, Arial, sans-serif" font-size="78" font-weight="900">MANGIAFUOCO</text>
+  <text x="72" y="622" fill="#f4f0e8" font-family="Consolas, monospace" font-size="20">FIRE / ESCAPE / REPORTS / TRACEABILITY</text>
+</svg>

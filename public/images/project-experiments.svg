@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Digital experiments editorial plate</title>
+  <desc id="desc">Abstract editorial visual placeholder for digital experiments.</desc>
+  <rect width="900" height="675" fill="#f4f0e8"/>
+  <rect x="60" y="60" width="780" height="555" fill="none" stroke="#10100f" stroke-width="5"/>
+  <path d="M150 60v555M300 60v555M450 60v555M600 60v555M750 60v555" stroke="#d4cec3" stroke-width="2"/>
+  <circle cx="224" cy="230" r="78" fill="#10100f"/>
+  <circle cx="450" cy="230" r="78" fill="#d83722"/>
+  <circle cx="676" cy="230" r="78" fill="#10100f"/>
+  <path d="M155 430h590" stroke="#10100f" stroke-width="20"/>
+  <path d="M155 492h420" stroke="#d83722" stroke-width="20"/>
+  <text x="86" y="580" fill="#10100f" font-family="Consolas, monospace" font-size="26">PROTOTYPES / NOTES / TEST OBJECTS</text>
+</svg>

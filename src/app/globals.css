@@ -1,0 +1,229 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f4f0e8;
+  --color-ink: #10100f;
+  --color-muted: #67635c;
+  --color-line: #d4cec3;
+  --color-accent: #d83722;
+  --color-wash: #e8e0d2;
+  --font-sans: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+:root {
+  --content-max-width: 1440px;
+  --content-gutter: 32px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(90deg, rgba(16, 16, 15, 0.035) 1px, transparent 1px) 0 0 / 8.333vw 100%,
+    var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-paper);
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.editorial-shell {
+  width: min(100% - var(--content-gutter), var(--content-max-width));
+  margin-inline: auto;
+}
+
+.hairline {
+  border-color: var(--color-line);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.headline {
+  font-family: var(--font-sans);
+  font-stretch: condensed;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 0.86;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+}
+
+.page-headline {
+  font-size: clamp(4.25rem, 19vw, 8.5rem);
+}
+
+.footer-headline {
+  font-size: clamp(4rem, 18vw, 8.5rem);
+}
+
+.closing-headline {
+  font-size: clamp(3.75rem, 16vw, 7rem);
+}
+
+@media (min-width: 768px) {
+  .page-headline {
+    font-size: clamp(4.75rem, 10.5vw, 9.5rem);
+  }
+
+  .footer-headline {
+    font-size: clamp(5rem, 9vw, 8.1rem);
+  }
+
+  .closing-headline {
+    font-size: clamp(3.75rem, 8vw, 7.2rem);
+  }
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.editorial-hover {
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease;
+}
+
+.editorial-hover:hover {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+.project-card-title {
+  color: var(--color-ink);
+  paint-order: stroke fill;
+  transition:
+    color 180ms ease,
+    -webkit-text-stroke-color 180ms ease;
+  -webkit-text-stroke: 0 transparent;
+}
+
+.project-card:hover .project-card-title {
+  color: var(--color-ink);
+  -webkit-text-stroke: 1.25px var(--color-paper);
+}
+
+@supports not (-webkit-text-stroke: 1px var(--color-paper)) {
+  .project-card:hover .project-card-title {
+    color: var(--color-paper);
+  }
+}
+
+.navigation-link {
+  color: var(--color-ink);
+  transition:
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.navigation-link:hover {
+  color: var(--color-paper);
+}
+
+.button-primary {
+  color: var(--color-paper);
+}
+
+.button-primary:hover {
+  color: var(--color-paper);
+}
+
+.button-outline {
+  color: var(--color-ink);
+}
+
+.button-outline:hover {
+  color: var(--color-paper);
+}
+
+.hover-stroke-title {
+  color: var(--color-ink);
+  paint-order: stroke fill;
+  transition:
+    color 180ms ease,
+    -webkit-text-stroke-color 180ms ease;
+  -webkit-text-stroke: 0 transparent;
+}
+
+.group:hover .hover-stroke-title {
+  color: var(--color-ink);
+  -webkit-text-stroke: 1.15px var(--color-paper);
+}
+
+@supports not (-webkit-text-stroke: 1px var(--color-paper)) {
+  .group:hover .hover-stroke-title {
+    color: var(--color-paper);
+  }
+}
+
+.marquee-track {
+  animation: marquee 28s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
