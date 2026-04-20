@@ -8,7 +8,7 @@ import { createMetadata } from "@/lib/seo";
 export const metadata = createMetadata({
   title: "Press Release",
   description:
-    "Press room personale di Matteo Minutti: comunicati, media note, contatti press e materiali scaricabili.",
+    "La mia press room personale: comunicati, media note, contatti press e materiali scaricabili.",
   path: "/press",
 });
 

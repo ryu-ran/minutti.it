@@ -4,7 +4,6 @@ export const navigation = [
   { label: "CV", href: "/cv" },
   { label: "Projects", href: "/projects" },
   { label: "Bulletin", href: "/bulletin" },
-  { label: "Press", href: "/press" },
   { label: "Contact", href: "/contact" },
 ];
 

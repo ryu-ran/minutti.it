@@ -7,7 +7,7 @@ import { createMetadata } from "@/lib/seo";
 export const metadata = createMetadata({
   title: "Projects",
   description:
-    "Archivio progetti di Matteo Minutti: SILPH Technologies, SILPH Control, piattaforme custom ed esperimenti digitali.",
+    "Il mio archivio progetti: SILPH Technologies, SILPH Control, Mangiafuoco, ALTAIR, Qonecto e FaiCONTO.",
   path: "/projects",
 });
 

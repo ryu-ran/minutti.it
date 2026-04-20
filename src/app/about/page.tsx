@@ -7,7 +7,7 @@ import { createMetadata } from "@/lib/seo";
 export const metadata = createMetadata({
   title: "About",
   description:
-    "Bio editoriale di Matteo Minutti: impresa, software, prodotto, design tecnico e sistemi digitali.",
+    "La mia bio editoriale: impresa, software, prodotto, design tecnico e sistemi digitali.",
   path: "/about",
 });
 
@@ -31,15 +31,15 @@ export default function AboutPage() {
         <div className="md:col-span-4">
           <SectionLabel index="01" label="Position" />
           <p className="serif text-pretty text-3xl leading-tight">
-            Matteo Minutti lavora nel punto in cui sviluppo software, prodotto, impresa e direzione
-            visiva smettono di fingersi reparti separati.
+            Lavoro nel punto in cui sviluppo software, prodotto, impresa e direzione visiva smettono
+            di fingersi reparti separati.
           </p>
         </div>
         <div className="grid gap-6 text-pretty text-lg leading-relaxed text-muted md:col-span-8 md:grid-cols-2">
           <p>
-            Costruisce software, piattaforme digitali, sistemi custom e identita tecniche. Il sito
-            e pensato come archivio personale: un luogo dove i progetti possono essere raccontati
-            senza gonfiarli e dove le idee possono restare precise.
+            Costruisco software, piattaforme digitali, sistemi custom e identita tecniche. Ho
+            pensato questo sito come archivio personale: un luogo dove raccontare i progetti senza
+            gonfiarli e dove lasciare le idee abbastanza precise da non diventare arredamento.
           </p>
           <p>
             Il metodo privilegia architettura, interfaccia, testo e responsabilita operativa. Una
@@ -64,11 +64,11 @@ export default function AboutPage() {
         items={[
           {
             title: "Product",
-            text: "Un prodotto deve chiarire cosa promette, cosa evita e dove crea valore reale. Il resto e arredamento.",
+            text: "Un prodotto deve chiarire cosa promette, cosa evita e dove crea valore reale. Il resto è arredamento.",
           },
           {
             title: "Software",
-            text: "Il codice non e solo implementazione. E una serie di decisioni organizzative rese eseguibili.",
+            text: "Il codice non è solo implementazione. È una serie di decisioni organizzative rese eseguibili.",
           },
           {
             title: "Business",

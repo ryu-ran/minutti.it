@@ -129,7 +129,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
               </div>
             ) : (
               <p className="serif text-pretty text-3xl leading-tight">
-                Questa pagina e pronta per case study piu estesi: metriche, immagini reali, dettagli
+                Questa pagina è pronta per case study piu estesi: metriche, immagini reali, dettagli
                 tecnici e link pubblici vanno aggiunti solo quando verificati e pubblicabili.
               </p>
             )}

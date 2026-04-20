@@ -14,7 +14,7 @@ const navigationData = [
   "indirizzo IP",
   "tipo di browser utilizzato",
   "sistema operativo",
-  "nome di dominio e indirizzi dei siti dai quali e stato effettuato l'accesso",
+  "nome di dominio e indirizzi dei siti dai quali è stato effettuato l'accesso",
   "pagine visitate",
   "data e orario della richiesta",
   "tempo di permanenza",
@@ -68,7 +68,7 @@ export default function PrivacyPage() {
   return (
     <>
       <EditorialHero
-        deck="Informativa sul trattamento dei dati personali per il sito personale di Matteo Minutti. Linguaggio leggibile, perche anche la privacy non deve sembrare scritta da una stampante nervosa."
+        deck="Informativa sul trattamento dei dati personali per il mio sito personale. Linguaggio leggibile, perche anche la privacy non deve sembrare scritta da una stampante nervosa."
         kicker="Privacy / Data protection"
         meta="GDPR / rights / contact"
         title={

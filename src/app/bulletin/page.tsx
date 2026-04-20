@@ -8,7 +8,7 @@ import { formatDate } from "@/lib/utils";
 export const metadata = createMetadata({
   title: "Bulletin",
   description:
-    "Bulletin personale di Matteo Minutti: note brevi, aggiornamenti, appunti tecnici e mini-articoli.",
+    "Il mio bulletin personale: note brevi, aggiornamenti, appunti tecnici e mini-articoli.",
   path: "/bulletin",
 });
 

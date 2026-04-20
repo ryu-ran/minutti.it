@@ -168,6 +168,17 @@ svg {
   }
 }
 
+.project-card-badge {
+  transition:
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.project-card:hover .project-card-badge {
+  border-color: var(--color-paper) !important;
+  color: var(--color-paper) !important;
+}
+
 .navigation-link {
   color: var(--color-ink);
   transition:

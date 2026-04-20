@@ -18,11 +18,11 @@ export const bulletinEntries: BulletinEntry[] = [
     category: "method",
     status: "published",
     excerpt:
-      "Un sito personale non dovrebbe limitarsi a dire che una persona sa fare cose. Dovrebbe mostrare il metodo con cui le mette in ordine.",
+      "Il mio sito personale non deve limitarsi a dire che so fare cose. Deve mostrare il metodo con cui le metto in ordine.",
     body: [
-      "Questo bulletin e pensato come area di appunti brevi: note tecniche, osservazioni di prodotto, comunicazioni personali e piccoli manifesti di metodo.",
-      "Il tono resta asciutto. Se una cosa non e verificabile, resta fuori. Se una cosa e ancora in costruzione, viene dichiarata come tale.",
-      "Aggiungere una nota significa aggiungere un oggetto editoriale, non riempire un blog per ragioni di traffico.",
+      "Uso questo bulletin come area di appunti brevi: note tecniche, osservazioni di prodotto, comunicazioni personali e piccoli manifesti di metodo.",
+      "Tengo il tono asciutto. Se una cosa non è verificabile, resta fuori. Se una cosa è ancora in costruzione, la dichiaro come tale.",
+      "Quando aggiungo una nota, aggiungo un oggetto editoriale.",
     ],
   },
   {

@@ -2,7 +2,7 @@
 
 Nuova codebase per il sito personale di Matteo Minutti: portfolio, manifesto professionale, archivio progetti, bulletin e press room.
 
-Il sito e costruito come oggetto editoriale: tipografia forte, griglie, sezioni ampie, contenuti strutturati e asset sostituibili. Non contiene dati biografici inventati, metriche, clienti o certificazioni non fornite.
+Il sito è costruito come oggetto editoriale: tipografia forte, griglie, sezioni ampie, contenuti strutturati e asset sostituibili. Non contiene dati biografici inventati, metriche, clienti o certificazioni non fornite.
 
 ## Stack
 

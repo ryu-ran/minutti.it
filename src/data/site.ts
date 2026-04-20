@@ -6,9 +6,9 @@ export const site = {
   role: "CEO, founder, software & product architect",
   headline: "I build software, products and systems with a press-room problem.",
   shortDescription:
-    "Sito personale, archivio e manifesto professionale di Matteo Minutti: software engineering, product design, cloud architecture, B2B platforms e identita digitali.",
+    "Il mio sito personale: archivio, manifesto professionale, software engineering, product design, cloud architecture, B2B platforms e identita digitali.",
   description:
-    "Matteo Minutti costruisce software, prodotti digitali, sistemi e identita tecniche. Un archivio personale tra sviluppo, impresa, design tecnico e cultura editoriale.",
+    "Costruisco software, prodotti digitali, sistemi e identita tecniche. Questo e il mio archivio personale tra sviluppo, impresa, design tecnico e cultura editoriale.",
   contactEmailLabel: "matteo@minutti.it",
   contactEmailHref: "mailto:matteo@minutti.it",
   social: [

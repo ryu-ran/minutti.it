@@ -17,15 +17,15 @@ export type PressItem = {
 export const pressItems: PressItem[] = [
   {
     slug: "personal-press-room",
-    title: "Matteo Minutti prepara una press room personale",
+    title: "Apro una press room personale",
     date: "2026-04-19",
     type: "media-note",
     status: "published",
     abstract:
-      "Archivio editoriale per comunicati, note pubbliche, media kit e aggiornamenti verificabili legati a prodotti, societa e progetti personali.",
+      "Archivio editoriale per comunicati, note pubbliche, media kit e aggiornamenti verificabili legati ai miei prodotti, alle societa e ai progetti personali.",
     body: [
-      "Questa sezione e progettata per ospitare comunicati stampa futuri senza trasformare il sito in una pagina corporate generica.",
-      "Ogni comunicato dovrebbe contenere data, abstract, contesto, eventuali asset scaricabili e contatto press. I contenuti non verificati vanno lasciati come bozza.",
+      "Ho progettato questa sezione per ospitare comunicati stampa futuri senza trasformare il sito in una pagina corporate generica.",
+      "Ogni comunicato dovra contenere data, abstract, contesto, eventuali asset scaricabili e contatto press. I contenuti non verificati restano fuori dal sito pubblico.",
     ],
     contact: "Contatto press da inserire",
     download: {

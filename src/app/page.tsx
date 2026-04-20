@@ -151,7 +151,7 @@ export default function HomePage() {
           <h2 className="headline closing-headline md:col-span-8">
             Build the thing.
             <br />
-            Then make it readable.
+            Then make it human.
           </h2>
           <div className="md:col-span-4">
             <p className="serif mb-6 text-2xl leading-tight">

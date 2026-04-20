@@ -33,9 +33,14 @@ export function ProjectIndex({ projects }: { projects: Project[] }) {
             </p>
           </div>
           <div className="flex flex-wrap content-start gap-2 md:col-span-3">
-            <Badge className="group-hover:border-paper">{project.status}</Badge>
+            <Badge className="project-card-badge text-ink group-hover:!border-paper group-hover:!text-paper">
+              {project.status}
+            </Badge>
             {project.tags.map((tag) => (
-              <Badge className="group-hover:border-paper" key={tag}>
+              <Badge
+                className="project-card-badge text-ink group-hover:!border-paper group-hover:!text-paper"
+                key={tag}
+              >
                 {tag}
               </Badge>
             ))}

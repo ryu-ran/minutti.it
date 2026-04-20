@@ -9,7 +9,7 @@ import { createMetadata } from "@/lib/seo";
 export const metadata = createMetadata({
   title: "CV",
   description:
-    "CV editoriale di Matteo Minutti: profilo, competenze, stack, ruoli e aree tecniche.",
+    "Il mio CV editoriale: profilo, competenze, stack, ruoli e aree tecniche.",
   path: "/cv",
 });
 

@@ -1,6 +1,6 @@
 export const cv = {
   profile:
-    "CEO, founder e software/product builder. Costruisce software, prodotti digitali, piattaforme B2B, sistemi custom e identita tecniche con attenzione a esecuzione, architettura e comunicazione visiva.",
+    "CEO, founder e software/product builder. Costruisco software, prodotti digitali, piattaforme B2B, sistemi custom e identita tecniche con attenzione a esecuzione, architettura e comunicazione visiva.",
   competencies: [
     "Software engineering",
     "Product design",
@@ -31,14 +31,14 @@ export const cv = {
       organization: "SILPH Technologies",
       period: "Present",
       description:
-        "Direzione, prodotto e sviluppo di sistemi software, piattaforme digitali e soluzioni custom. Dettagli pubblici da completare con informazioni verificate.",
+        "Dirigo, progetto e sviluppo sistemi software, piattaforme digitali e soluzioni custom. I dettagli pubblici restano limitati a informazioni verificabili e pubblicabili.",
     },
     {
-      role: "Software / Product Builder",
-      organization: "Independent and custom projects",
+      role: "CTO / Product Architecture",
+      organization: "MySocialCollection",
       period: "Ongoing",
       description:
-        "Progettazione e sviluppo di web app, piattaforme operative, automazioni e sistemi digitali collegati a bisogni di prodotto concreti.",
+        "Ruolo CTO su MySocialCollection, social network e marketplace per collezionisti. Lavoro su architettura tecnica, logica di prodotto, flussi marketplace, struttura della community e basi operative della piattaforma.",
     },
   ],
   roles: [
